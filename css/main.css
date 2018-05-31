@@ -38,9 +38,9 @@ body {
 }
 
 .tags {
-  display: flex;
-  flex-direction: row;
-  margin: 30px 70px;
+  /* display: flex;
+  flex-direction: row; */
+  /* margin: 30px 70px; */
 }
 
 .imagen {
@@ -64,3 +64,23 @@ footer {
   justify-content: space-between;
   padding: 10px 70px;
 }
+
+/* media queries */
+
+@media screen and (max-width: 600px) {
+  footer {
+    padding: 10px;
+  }
+  .imagen {
+    padding: 10px;
+  }
+ }
+
+ @media (min-width: 601px) and (max-width: 991px) { 
+  .tags {
+    margin: 30px 70px;
+
+    }
+  }
+
+
