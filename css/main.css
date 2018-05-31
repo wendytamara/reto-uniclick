@@ -16,6 +16,10 @@ body {
   margin: 20px 40px;
 }
 
+header {
+  margin: 10px 70px !important;
+}
+
 .paragraph-title {
   text-align: center;
 }
@@ -83,4 +87,9 @@ footer {
     }
   }
 
+  @media (min-width: 992px) {
+    .tags {
+      margin: 30px 70px;
+    }
+  }
 
