@@ -22,8 +22,8 @@ body {
 
 .container-items {
   background-color: #D9534F;
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
   padding: 40px 70px;
 }
 
